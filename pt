@@ -26,10 +26,10 @@ xkb_symbols "mylayout" {
  key <AD08> { [ i, I, rightarrow, idotless ] };
  key <AD09> { [ o, O, oslash, Ooblique ] };
  key <AD10> { [ p, P, Greek_pi, Greek_PI ] };
- key <AD11> { [ bracketleft, braceleft, asterisk, notsign ] };
- key <AD12> { [ bracketright, braceright, plus, notsign ] };
+ key <AD11> { [ bracketleft, braceleft, asterisk, includein ] };
+ key <AD12> { [ bracketright, braceright, plus, includes ] };
 
- key <AC01> { [ a, A,  Greek_alpha, AE ] };
+ key <AC01> { [ a, A,  Greek_alpha, U2200 ] };
  key <AC02> { [ s, S,  Greek_sigma, Greek_SIGMA ] };
  key <AC03> { [ d, D,  Greek_delta, Greek_DELTA ] };
  key <AC04> { [ f, F,  Greek_phi, Greek_PHI ] };
@@ -43,12 +43,12 @@ xkb_symbols "mylayout" {
  key <TLDE> { [ masculine, ordfeminine, asciitilde, infinity ] };
 
  key <BKSL> { [ backslash, bar, lessthanequal, greaterthanequal ] };
- key <AB01> { [ z, Z, guillemotleft, U2124 ] };
+ key <AB01> { [ z, Z, U2124, guillemotleft ] };
  key <AB02> { [ x, X, guillemotright, Greek_xi ] };
  key <AB03> { [ c, C, U2102, copyright ] };
  key <AB04> { [ v, V, logicalor, logicaland ] };
  key <AB05> { [ b, B, Greek_beta, Greek_BETA ] };
- key <AB06> { [ n, N, Greek_nu, U2115 ] };
+ key <AB06> { [ n, N, U2115, Greek_nu  ] };
  key <AB07> { [ m, M, mu, masculine ] };
  key <AB08> { [ comma, less, leftdoublequotemark,  leftsinglequotemark  ] };
  key <AB09> { [ period, greater, rightdoublequotemark, rightsinglequotemark ] };
