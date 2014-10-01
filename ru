@@ -26,7 +26,7 @@ xkb_symbols "mylayout" {
  key <AD08> { [ i, I, rightarrow, idotless ] };
  key <AD09> { [ o, O, oslash, Ooblique ] };
  key <AD10> { [ p, P, Greek_pi, Greek_PI ] };
- key <AD11> { [ bracketleft, braceleft, asterisk, includein ] };
+ key <AD11> { [ bracketleft, braceleft, asterisk, includedin ] };
  key <AD12> { [ bracketright, braceright, plus, includes ] };
 
  key <AC01> { [ a, A,  Greek_alpha, U2200 ] };
