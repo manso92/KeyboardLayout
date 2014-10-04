@@ -1,1 +1,1 @@
-cat /home/vicdejuan/Documents/Layout/own | grep $1
+cat /home/vicdejuan/Documents/Programacion/Layout/own | grep $1
