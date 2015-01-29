@@ -2,7 +2,6 @@
 if [[ $1 == "" ]]; then
 	echo "Argumento por favor"
 else
-	rm /var/lib/xkb/*.xkm
 	cp ./$1 /usr/share/X11/xkb/symbols/$1
 	setxkbmap $1
 fi
