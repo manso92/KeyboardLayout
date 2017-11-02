@@ -1,0 +1,57 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Generated keyboard layout file with the Keyboard Layout Editor.
+// For more about the software, see http://code.google.com/p/keyboardlayouteditor
+//
+
+xkb_symbols "latex"
+{
+	name[Group1] = "Spanish";
+	key <AB01> { [              z,              Z,     Greek_zeta,     Greek_ZETA ] }; // z Z ζ Ζ 
+	key <AB02> { [              x,              X,       Greek_xi,       Greek_XI ] }; // x X ξ Ξ 
+	key <AB03> { [              c,              C,  Greek_omicron,  Greek_OMICRON ] }; // c C ο Ο 
+	key <AB04> { [              v,              V,         dollar                 ] }; // v V $ 
+	key <AB05> { [              b,              B,     Greek_beta,     Greek_BETA ] }; // b B β Β 
+	key <AB06> { [              n,              N,       Greek_nu,       Greek_NU ] }; // n N ν Ν 
+	key <AB07> { [              m,              M,       Greek_mu,       Greek_MU ] }; // m M μ Μ 
+	key <AB08> { [ Armenian_comma,      semicolon,       leftshoe,          U2286 ] }; // , ; ⊂ ⊆ 
+	key <AB09> { [ Armenian_mijaket,          colon,      rightshoe,          U2287 ] }; // . : ⊃ ⊇ 
+	key <AB10> { [    KP_Subtract,       underbar                                 ] }; // - _ 
+	key <AC01> { [              a,              A,    Greek_alpha,    Greek_ALPHA ] }; // a A α Α 
+	key <AC02> { [              s,              S,    Greek_sigma,    Greek_SIGMA ] }; // s S σ Σ 
+	key <AC03> { [              d,              D,    Greek_delta,    Greek_DELTA ] }; // d D δ Δ 
+	key <AC04> { [              f,              F,      Greek_phi,      Greek_PHI ] }; // f F φ Φ 
+	key <AC05> { [              g,              G,    Greek_gamma,    Greek_GAMMA ] }; // g G γ Γ 
+	key <AC06> { [              h,              H,       NoSymbol,         dollar ] }; // h H  $ 
+	key <AC07> { [              j,              J,      Greek_chi,      Greek_CHI ] }; // j J χ Χ 
+	key <AC08> { [              k,              K,    Greek_kappa,    Greek_KAPPA ] }; // k K κ Κ 
+	key <AC09> { [              l,              L,   Greek_lambda,    Greek_LAMDA ] }; // l L λ Λ 
+	key <AC10> { [         ntilde,         Ntilde,      Greek_psi,      Greek_PSI ] }; // ñ Ñ ψ Ψ 
+	key <AC11> { [       NoSymbol,       NoSymbol,      plusminus                 ] }; //   ± 
+	key <AD01> { [              q,              Q,      braceleft,     braceright ] }; // q Q { } 
+	key <AD02> { [              w,              W,      Greek_eta,      Greek_ETA ] }; // w W η Η 
+	key <AD03> { [              e,              E,  Greek_epsilon,  Greek_EPSILON ] }; // e E ε Ε 
+	key <AD04> { [              r,              R,      Greek_rho,      Greek_RHO ] }; // r R ρ Ρ 
+	key <AD05> { [              t,              T,    Greek_theta,    Greek_THETA ] }; // t T θ Θ 
+	key <AD06> { [              y,              Y,  Greek_upsilon,  Greek_UPSILON ] }; // y Y υ Υ 
+	key <AD07> { [              u,              U,      Greek_tau,      Greek_TAU ] }; // u U τ Τ 
+	key <AD08> { [              i,              I,     Greek_iota,     Greek_IOTA ] }; // i I ι Ι 
+	key <AD09> { [              o,              O,    Greek_omega,    Greek_OMEGA ] }; // o O ω Ω 
+	key <AD10> { [              p,              P,       Greek_pi,       Greek_PI ] }; // p P π Π 
+	key <AD11> { [      braceleft,    bracketleft,    asciicircum                 ] }; // { [ ^ 
+	key <AD12> { [     braceright,   bracketright,         KP_Add,    KP_Multiply ] }; // } ] + * 
+	key <AE01> { [           KP_1,         exclam                                 ] }; // 1 ! 
+	key <AE02> { [           KP_2,       quotedbl,             at,          U2200 ] }; // 2 " @ ∀ 
+	key <AE03> { [           KP_3,       NoSymbol,          U2115,          U2208 ] }; // 3  ℕ ∈ 
+	key <AE04> { [           KP_4,       NoSymbol,          U2124,          U2209 ] }; // 4  ℤ ∉ 
+	key <AE05> { [           KP_5,       NoSymbol,          U211A,          U2203 ] }; // 5  ℚ ∃ 
+	key <AE06> { [           KP_6,       NoSymbol,          U211D,          U2204 ] }; // 6  ℝ ∄ 
+	key <AE07> { [           KP_7,       NoSymbol,          U2102                 ] }; // 7  ℂ 
+	key <AE08> { [           KP_8, Armenian_parenleft                                 ] }; // 8 ( 
+	key <AE09> { [           KP_9, Armenian_parenright                                 ] }; // 9 ) 
+	key <AE10> { [           KP_0,       KP_Equal                                 ] }; // 0 = 
+	key <AE11> { [   questiondown                                                 ] }; // ¿ 
+	key <AE12> { [       question                                                 ] }; // ? 
+	key <LSGT> { [      leftcaret,     rightcaret,  lessthanequal, greaterthanequal ] }; // < > ≤ ≥ 
+};
+
