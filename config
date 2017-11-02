@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ $1 == "" ]]; then
+	echo "Argumento por favor"
+else
+	printf "\nalias $1='setxkbmap $1'" >> ~/.bashrc
+fi
