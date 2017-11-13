@@ -27,7 +27,7 @@ xkb_symbols "latex"
 	key <AC08> { [              k,              K,    Greek_kappa,    Greek_KAPPA ] }; // k K κ Κ 
 	key <AC09> { [              l,              L,   Greek_lambda,    Greek_LAMDA ] }; // l L λ Λ 
 	key <AC10> { [         ntilde,         Ntilde,      Greek_psi,      Greek_PSI ] }; // ñ Ñ ψ Ψ 
-	key <AC11> { [       NoSymbol,       NoSymbol,      plusminus                 ] }; //   ± 
+	key <AC11> { [     dead_acute, dead_diaeresis,      plusminus                 ] }; // D´ D¨ ± 
 	key <AD01> { [              q,              Q,      braceleft,     braceright ] }; // q Q { } 
 	key <AD02> { [              w,              W,      Greek_eta,      Greek_ETA ] }; // w W η Η 
 	key <AD03> { [              e,              E,  Greek_epsilon,  Greek_EPSILON ] }; // e E ε Ε 
@@ -39,17 +39,17 @@ xkb_symbols "latex"
 	key <AD09> { [              o,              O,    Greek_omega,    Greek_OMEGA ] }; // o O ω Ω 
 	key <AD10> { [              p,              P,       Greek_pi,       Greek_PI ] }; // p P π Π 
 	key <AD11> { [      braceleft,    bracketleft,    asciicircum                 ] }; // { [ ^ 
-	key <AD12> { [     braceright,   bracketright,         KP_Add,    KP_Multiply ] }; // } ] + * 
-	key <AE01> { [           KP_1,         exclam,              bar,        NoSymbol         ] }; // 1 ! 
-	key <AE02> { [           KP_2,       quotedbl,             at,          U2200 ] }; // 2 " @ ∀ 
-	key <AE03> { [           KP_3,     numbersign,          U2115,          U2208 ] }; // 3 # ℕ ∈ 
-	key <AE04> { [           KP_4,         dollar,          U2124,          U2209 ] }; // 4 $ ℤ ∉ 
-	key <AE05> { [           KP_5,        percent,          U211A,          U2203 ] }; // 5 % ℚ ∃ 
-	key <AE06> { [           KP_6,      ampersand,          U211D,          U2204 ] }; // 6 & ℝ ∄ 
-	key <AE07> { [           KP_7,          slash,          U2102                 ] }; // 7 / ℂ 
-	key <AE08> { [           KP_8,      parenleft                                 ] }; // 8 ( 
-	key <AE09> { [           KP_9,     parenright                                 ] }; // 9 ) 
-	key <AE10> { [           KP_0,          equal,       notequal,   U2205     ] }; // 0 =  ≠ 
+	key <AD12> { [     braceright,   bracketright,           plus,       asterisk ] }; // } ] + * 
+	key <AE01> { [              1,         exclam,            bar                 ] }; // 1 ! | 
+	key <AE02> { [              2,       quotedbl,             at,          U2200 ] }; // 2 " @ ∀ 
+	key <AE03> { [              3,     numbersign,          U2115,          U2208 ] }; // 3 # ℕ ∈ 
+	key <AE04> { [              4,         dollar,          U2124,          U2209 ] }; // 4 $ ℤ ∉ 
+	key <AE05> { [              5,        percent,          U211A,          U2203 ] }; // 5 % ℚ ∃ 
+	key <AE06> { [              6,      ampersand,          U211D,          U2204 ] }; // 6 & ℝ ∄ 
+	key <AE07> { [              7,          slash,          U2102                 ] }; // 7 / ℂ 
+	key <AE08> { [              8,      parenleft                                 ] }; // 8 ( 
+	key <AE09> { [              9,     parenright                                 ] }; // 9 ) 
+	key <AE10> { [              0,          equal,       notequal,          U2205 ] }; // 0 = ≠ ∅ 
 	key <AE11> { [   questiondown                                                 ] }; // ¿ 
 	key <AE12> { [       question                                                 ] }; // ? 
 	key <LSGT> { [      leftcaret,     rightcaret,  lessthanequal, greaterthanequal ] }; // < > ≤ ≥ 
