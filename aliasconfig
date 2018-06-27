@@ -1,0 +1,6 @@
+#!/bin/bash
+
+printf "alias eskey='setxkbmap es' \n " >> ~/.bashrc
+printf "alias enkey='setxkbmap en' \n " >> ~/.bashrc
+printf "alias latexkey='setxkbmap latex' \n " >> ~/.bashrc
+
